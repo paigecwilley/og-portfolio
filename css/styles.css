@@ -73,6 +73,16 @@ img[alt="paige-header-img"] {
 }
 
 
+
+/*Main Content*/
+
+.row {
+	width: 100%;
+	background: #fff;
+}
+
+
+
 a:link{
   text-decoration: none!important;
 }
@@ -84,5 +94,32 @@ a:link{
 
 	#hamburger {
 		display: inline-block;
+	}
+
+	.row {
+		padding-top: 0;
+		text-align: center;
+	}
+}
+
+.portfolio-screenshot {
+	width: 100%;
+	background: gray;
+	height: 194px;
+}
+
+.portfolio-screenshot img {
+	width:100%;
+}
+
+@media (max-width: 480px){
+	.container {
+		padding: 0 20px;
+	}
+
+	@media (max-width: 1072px){
+		.portfolio-item {
+			padding: 45px 20px 66px;
+		}
 	}
 }
