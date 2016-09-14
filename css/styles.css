@@ -1,0 +1,65 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
+}
+
+header {
+	height: 140px;
+	text-decoration: 	none;
+
+}
+
+#header {
+	padding-top: 34px;
+
+}
+
+img[alt="paige-header-img"] {
+	position: fixed;
+	min-height: 100%;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -100;
+}
+
+.brand {
+	float: left;
+	width: 320px;
+}
+
+#logo {
+	height: 37px;
+	width: 41px;
+	background-color: blue;
+	float: left;
+	margin-right: 10px;
+}
+
+.navigation {
+	float: right;
+}
+
+#hamburger {
+	width: 36px;
+	height: 30px;
+	display:none;
+}
+
+.hero-container {
+	text-align: center;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
+@media (max-width: 690px) {
+	#nav ul.nav-default {
+		display:none;
+	}
+
+	#hamburger {
+		display: inline-block;
+	}
+}
