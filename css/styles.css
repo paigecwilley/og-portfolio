@@ -3,6 +3,10 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+li {
+	list-style-type: none;
+}
+
 header {
 	height: 140px;
 	text-decoration: 	none;
@@ -48,7 +52,26 @@ img[alt="paige-header-img"] {
 
 .hero-container {
 	text-align: center;
+	padding-bottom: 85px;
 }
+
+.about-paragraph {
+	margin-bottom: 65px;
+}
+
+.intro-social-buttons > li {
+	display: block;
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+.intro-social-buttons li a {
+	font-size: 18px;
+	padding: 10px 16px;
+	background: white;
+	border-radius: 8px;
+}
+
 
 a:link{
   text-decoration: none!important;
