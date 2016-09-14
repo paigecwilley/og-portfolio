@@ -96,6 +96,14 @@ a:link{
 	width:100%;
 }
 
+.portfolio-col {
+	text-align: center;
+
+}
+
+
+/*Media Queries*/
+
 
 
 
@@ -105,6 +113,8 @@ a:link{
 		}
 		.portfolio-item img {
 			width: 65%;
+			max-width: 629px;
+			max-height: 390px;
 		}
 
 		/*.container {
