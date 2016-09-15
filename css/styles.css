@@ -18,6 +18,18 @@ header {
 
 }
 
+.name {
+	font-size: 17px;
+	font-weight: bolder;
+	padding-bottom: 5px;
+	color: black;
+}
+
+.title {
+	color: black;
+	font-size: 10px;
+}
+
 img[alt="paige-header-img"] {
 	position: fixed;
 	min-height: 100%;
@@ -25,11 +37,16 @@ img[alt="paige-header-img"] {
 	top: 0;
 	left: 0;
 	z-index: -100;
+    height: 454px;
+   /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 56%;*/
 }
 
 .brand {
 	float: left;
-	width: 320px;
+	width: 180px;
+	margin-left: 19px;
 }
 
 #logo {
@@ -44,9 +61,28 @@ img[alt="paige-header-img"] {
 	float: right;
 }
 
+.nav-default {
+	margin: 0;
+}
+
+.nav-default  li {
+	float: left;
+	padding: 0 44px 0;
+}
+
+.nav-default li a {
+	font-weight: bolder;
+	color: black;
+}
+
+.nav-default li a:hover {
+	color: white;
+}
+
 #hamburger {
 	width: 36px;
 	height: 30px;
+	margin-right:19px;
 	display:none;
 }
 
@@ -117,11 +153,9 @@ a:link{
 			max-height: 390px;
 		}
 
-		/*.container {
-			padding: 0 30px;
-			text-align: center;
-			width: 65%;
-		}*/
+		.nav-default {
+			margin: 0;
+		}
 	}
 
 	@media (max-width: 690px) {
