@@ -152,6 +152,29 @@ a:link{
 }
 
 
+#about {
+	width: 100%;
+	background: whitesmoke;
+}
+
+
+#profile-img img {
+	width: 165px;
+	height: 165px;
+	border-radius:100%;
+}
+
+
+#social-contacts ul li {
+	display: inline-block;
+	float: left;
+	font-size: 24px;
+	padding: 2px;
+}
+
+/*#social-contacts ul li a {
+	font-size
+}*/
 /*Media Queries*/
 
 
