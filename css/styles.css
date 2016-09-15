@@ -79,6 +79,10 @@ img[alt="paige-header-img"] {
 	color: white;
 }
 
+.active {
+	border-bottom: 4px solid #ff0047;
+}
+
 #hamburger {
 	width: 36px;
 	height: 30px;
