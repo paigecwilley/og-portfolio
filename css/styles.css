@@ -93,6 +93,7 @@ img[alt="paige-header-img"] {
 .hero-container {
 	text-align: center;
 	padding: 110px 0 163px;
+	color: white;
 }
 
 .about-paragraph {
@@ -100,7 +101,7 @@ img[alt="paige-header-img"] {
 }
 
 .intro-social-buttons > li {
-	display: block;
+	display: inline;
 	margin-bottom: 30px;
 	padding: 0;
 }
@@ -108,6 +109,7 @@ img[alt="paige-header-img"] {
 .intro-social-buttons li a {
 	font-size: 18px;
 	padding: 10px 16px;
+	margin-right: 20px;
 	background: white;
 	border-radius: 8px;
 }
@@ -117,7 +119,7 @@ img[alt="paige-header-img"] {
 /*Main Content*/
 
 #main-content {
-	background: whitesmoke;
+	background: #fff;
 }
 
 #projects {
@@ -130,6 +132,14 @@ img[alt="paige-header-img"] {
 	background: #fff;
 }
 
+.container {
+	overflow: auto;
+}
+
+.project-title h3 a {
+	color: black;
+	font-size: 28px;
+}
 
 .description {
 	color: #868686;
@@ -234,6 +244,7 @@ a:link{
 		padding-top: 125px;
     padding-bottom: 130px;
     display: block;
+    overflow: auto;
 		}
 
 		.portfolio-screenshot {
@@ -271,6 +282,11 @@ a:link{
 }
 
 @media (max-width: 480px){
+
+	.intro-social-buttons li a {
+		float: left;
+	}
+
 	.container {
 		padding: 0 20px;
 	}
