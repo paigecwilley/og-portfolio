@@ -145,6 +145,11 @@ img[alt="paige-header-img"] {
 	color: #868686;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 
 a:link{
   text-decoration: none!important;
@@ -187,6 +192,7 @@ a:link{
 
 #profile-basics {
 	display: inline-block;
+	padding: 20px 0;
 
 }
 
@@ -194,7 +200,9 @@ a:link{
 #profile-img img {
 	width: 165px;
 	height: 165px;
+	border: solid #fff 20px;
 	border-radius:100%;
+	margin: 0 40px;
 }
 
 
@@ -210,15 +218,21 @@ a:link{
 	color: red;
 }
 
-/*#social-contacts ul li a {
-	font-size
-}*/
+.bio-content {
+	padding: 20px 16px 36px;
+
+}
 /*Media Queries*/
 
 
 
 
 	@media (max-width: 1072px){
+		
+		.about-paragraph {
+			padding: 0 30px;
+		}	
+
 		.portfolio-item {
 			padding: 45px 21px 66px;
 		}
@@ -236,6 +250,11 @@ a:link{
 	}
 
 	@media (min-width: 1073px) {
+		
+		.about-paragraph {
+			padding: 0 40px;
+		}
+
 		.row {
 			overflow: auto;
 		}
@@ -265,6 +284,21 @@ a:link{
 
 	}
 
+#links {
+
+	height:20%;
+	text-align: center;
+	font-size: 12px;
+}
+
+#links ul {
+	margin-top: 6%;
+}
+	#links ul li{
+		display:inline;
+		padding: 10px;
+	}
+
 
 	@media (max-width: 690px) {
 	#nav ul.nav-default {
@@ -281,13 +315,29 @@ a:link{
 	}
 }
 
+@media (min-width:780px){
+	#profile-image {
+		display: inline-block;
+	}
+	.bio-content {
+		width:30%;
+		margin-left: 36px;
+		display: inline-block;
+		padding:0;
+	}
+}
+
 @media (max-width: 480px){
+
+	.about-paragraph {
+		padding: 0 20px;
+	}
 
 	.intro-social-buttons li a {
 		float: left;
 	}
 
-	.container {
+	.container{
 		padding: 0 20px;
 	}
 
