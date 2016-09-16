@@ -116,10 +116,20 @@ img[alt="paige-header-img"] {
 
 /*Main Content*/
 
+#main-content {
+	background: whitesmoke;
+}
+
+#projects {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 .row {
 	width: 100%;
 	background: #fff;
 }
+
 
 .description {
 	color: #868686;
@@ -142,6 +152,10 @@ a:link{
 .portfolio-col {
 	text-align: center;
 
+}
+
+.skills {
+	padding: 0;
 }
 
 .skills li {
@@ -207,7 +221,18 @@ a:link{
 		.nav-default {
 			margin: 0;
 		}
+
+
 	}
+
+	@media (min-width: 1073px) {
+		
+		.portfolio-item img {
+			float:left;
+			width: 45%;
+		}
+	}
+
 
 	@media (max-width: 690px) {
 	#nav ul.nav-default {
