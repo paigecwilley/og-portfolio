@@ -8,6 +8,17 @@ $(document).ready(function(){
 
 	})
 
+	$('#hamburger').click(function(){
+		console.log('hey');
+		$('.nav-default').addClass('nav-mobile');
+		console.log('here is a thing');
+
+
+
+
+
+	})
+
 
 
 

@@ -73,11 +73,15 @@ img[alt="paige-header-img"] {
 .nav-default li a {
 	font-weight: bolder;
 	color: black;
+	padding-bottom: 20px;
 }
 
 .nav-default li a:hover {
 	color: white;
 }
+
+
+
 
 .active {
 	border-bottom: 4px solid #ff0047;
