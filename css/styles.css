@@ -168,6 +168,19 @@ a:link{
 	width:100%;
 }
 
+.sunset-img {
+	background-image: url("../imgs/sunset-screenshot.png");
+	background-size: contain;
+	background-position: center center;
+	height: 273.766px;
+	width: 441.594px;
+
+}
+
+.sunset-img:hover {
+	background-image: url("../imgs/sunset.gif");
+}
+
 .portfolio-col {
 	text-align: center;
 
