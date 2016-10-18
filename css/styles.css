@@ -52,7 +52,6 @@ img[alt="paige-header-img"] {
 #logo {
 	height: 37px;
 	width: 41px;
-	background-color: blue;
 	float: left;
 	margin-right: 10px;
 }
@@ -179,6 +178,32 @@ a:link{
 
 .sunset-img:hover {
 	background-image: url("../imgs/sunset.gif");
+}
+
+.quote_img {
+	background-image: url("../imgs/quote_app_img.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 274.766px;
+	width: 441.594px;
+}
+
+.quote_img:hover {
+	background-image: url("../imgs/quote_app.gif")
+}
+
+.breathe_img {
+	background-image: url("../imgs/breath_app_img.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 274.766px;
+	width: 441.594px;
+}
+
+.breathe_img:hover {
+	background-image: url("../imgs/breath_app.gif");
 }
 
 .portfolio-col {
