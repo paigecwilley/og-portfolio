@@ -18,15 +18,19 @@ header {
 
 }
 
+h1 {
+	color: white;
+}
+
 .name {
 	font-size: 17px;
 	font-weight: bolder;
 	padding-bottom: 5px;
-	color: black;
+	color: white;
 }
 
 .title {
-	color: black;
+	color: white;
 	font-size: 10px;
 }
 
@@ -71,7 +75,7 @@ img[alt="paige-header-img"] {
 
 .nav-default li a {
 	font-weight: bolder;
-	color: black;
+	color: white;
 	padding-bottom: 20px;
 }
 
@@ -101,8 +105,13 @@ img[alt="paige-header-img"] {
 
 .about-paragraph {
 	margin-bottom: 65px;
-	color: black;
+	color: white;
 	text-align: left;
+}
+
+#email-link {
+	text-decoration: none;
+	color: #333;
 }
 
 .intro-social-buttons > li {
@@ -146,6 +155,11 @@ img[alt="paige-header-img"] {
 	font-size: 28px;
 }
 
+.project-title h3 a:hover {
+	color: #3c819f;
+	cursor: pointer;
+}
+
 .description {
 	color: #868686;
 }
@@ -163,6 +177,10 @@ a:link{
 
 .portfolio-screenshot {
 	width: 100%;
+}
+
+.portfolio-screenshot:hover {
+	cursor: pointer;
 }
 
 .portfolio-screenshot img {
