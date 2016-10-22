@@ -367,6 +367,14 @@ a:link{
 		display:none;
 	}
 
+	img[alt="paige-header-img"] {
+		min-height: 110%;
+	}
+	.hero-container {
+		padding-top: 0px;
+	}
+
+
 	#hamburger {
 		display: inline-block;
 	}
@@ -378,12 +386,7 @@ a:link{
 }
 
 @media (min-width:780px){
-	img[alt="paige-header-img"] {
-		min-height: 110%;
-	}
-	.hero-container {
-		padding-top: 0px;
-	}
+
 	#profile-image {
 		display: inline-block;
 	}
