@@ -192,6 +192,7 @@ a:link{
 	background-image: url("../imgs/sunset-screenshot.png");
 	background-size: contain;
 	background-position: center center;
+	background-repeat: no-repeat;
 	height: 273.766px;
 	width: 441.594px;
 
