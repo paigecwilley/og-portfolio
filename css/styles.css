@@ -110,6 +110,7 @@ img[alt="paige-header-img"] {
 }
 
 #email-link {
+	text-decoration: underline;
 	color: #fff;
 }
 
